@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: sans-serif
+}
+
+.header {
+    text-align: center;
+    position:relative;
+}
+
+.instructions {
+    text-align:center;
+}
+
+.dice {
+    font-size: 50px; 
+    border: 1px solid black; 
+    width: 50px; 
+    text-align: center;
+    margin: 20px auto;
+}
+
+.button {
+    position:relative;
+    text-align: center;
+}
