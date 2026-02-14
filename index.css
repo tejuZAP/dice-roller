@@ -1,17 +1,21 @@
+/* Styles body */
 body {
     margin: 0;
     font-family: sans-serif
 }
 
+/* Styles header */
 .header {
     text-align: center;
     position:relative;
 }
 
+/* Styles instructions section */
 .instructions {
     text-align:center;
 }
 
+/* Styles number for the dice roll */
 .dice {
     font-size: 50px; 
     border: 1px solid black; 
@@ -20,6 +24,7 @@ body {
     margin: 20px auto;
 }
 
+/* Styles the button */
 .button {
     position:relative;
     text-align: center;
