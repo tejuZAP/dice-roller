@@ -1,22 +1,29 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dice Roller</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+
     <div class="header">
         <h1>JavaScript Dice Roller</h1>
     </div>
+
     <div class="instructions">
         <p>Click on the Roll Dice button or press enter to get a number</p>
+        <p id="status">Connecting to server...</p>
     </div>
+
     <div id="diceResult" class="dice">0</div>
+
     <div class="button">
         <button onclick="rollDice()" autofocus>Roll Dice</button>
     </div>
+
     <script src="index.js"></script>
 </body>
 </html>
